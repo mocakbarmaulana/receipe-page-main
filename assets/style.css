@@ -59,8 +59,14 @@ h2 {
 }
 
 h3 {
-  font-family: "Young Serif", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.title-h2 {
+  color: var(--brown-800);
+  font-weight: unset;
   font-size: 1.5rem;
 }
 
@@ -69,7 +75,9 @@ h3 {
 }
 
 .hero {
-  height: 200px;
+  height: 12.5rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .content {
@@ -80,6 +88,8 @@ h3 {
 .prepare {
   background-color: var(--rose-50);
   padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .prepare h3 {
@@ -89,5 +99,79 @@ h3 {
 .prepare ul {
   list-style: none;
   display: grid;
+  padding-top: 1rem;
   grid-template-columns: 1.25rem 1fr;
+  gap: .8rem;
+  color: var(--stone-600);
+}
+
+.prepare ul li:nth-child(odd) {
+  color: var(--rose-800);
+  font-weight: bold;
+}
+
+.ingredients {
+  border-bottom: 1px solid var(--stone-150);
+  padding-bottom: 2rem;
+}
+
+.ingredients ul {
+  padding: 1rem .5rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1.25rem 1fr;
+  gap: .8rem;
+  color: var(--stone-600);
+}
+
+.ingredients ul li:nth-child(odd) {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+.instructions {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.instructions ul {
+  padding: 1rem;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: 1rem;
+  color: var(--stone-600);
+}
+
+.instructions ul li:nth-child(odd) {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+.nutrition {
+  padding: 2rem 0;
+  color: var(--stone-600);
+}
+
+.nutrition p {
+  padding: 1rem 0;
+}
+
+.nutrition ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.nutrition ul li {
+  padding: 0 0 .5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+
+.attribution {
+  text-align: center;
 }
