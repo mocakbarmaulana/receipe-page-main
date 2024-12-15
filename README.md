@@ -35,7 +35,7 @@ Take a look at how the project looks on different devices:
 ### Links
 
 - Solution URL: [Gitlab](https://gitlab.com/fe-mentor/receipe-page-main.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [receipagemain.vercel.app](https://receipagemain.vercel.app/)
 
 ## My process
 
