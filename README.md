@@ -19,10 +19,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 Take a look at how the project looks on different devices:  
 
 ### 💻 Desktop View  
-![Desktop Preview](./preview/desktop.png)  
+[![Desktop Preview](./preview/desktop.png)](./preview/desktop.png "Click to view full-size")  
 
 ### 📱 Mobile View  
-![Mobile Preview](./preview/mobile.png)  
+[![Mobile Preview](./preview/mobile.png)](./preview/mobile.png "Click to view full-size")  
+ 
 
 ### Links
 
