@@ -70,7 +70,7 @@ h3 {
   font-size: 1.5rem;
 }
 
-.main {
+.main-content {
   padding: 2rem;
 }
 
@@ -164,6 +164,10 @@ h3 {
   gap: 1rem;
 }
 
+.nutrition strong {
+  color: var(--brown-800);
+}
+
 .nutrition ul li {
   padding: 0 0 .5rem 0;
   display: grid;
@@ -174,4 +178,44 @@ h3 {
 
 .attribution {
   text-align: center;
+}
+
+/* Responsive more than 768px */
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    width: 90%;
+    padding: 2rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hero {
+    height: 20rem;
+    border-radius: .5rem;
+  }
+
+  .main-content {
+    padding: 2rem 0;
+  }
+}
+
+/* Responsive more than 1024px */
+@media only screen and (min-width: 1024px) {
+  .main {
+    width: 70%;
+    padding: 2rem;
+  }
+}
+
+/* Responsive more than 1280px */
+@media only screen and (min-width: 1280px) {
+  .main {
+    width: 50%;
+    padding: 2rem;
+  }
 }
